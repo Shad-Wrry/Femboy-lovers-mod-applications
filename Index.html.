@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Femboy Lovers - Mod Application</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      color: #333;
+    }
+    header {
+      background-color: #7c3aed;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 2rem;
+      padding: 0.75rem;
+      background-color: #7c3aed;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #6d28d9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Femboy Lovers</h1>
+    <p>Moderator Application Form</p>
+  </header>
+  <main>
+    <h2>Apply to Become a Moderator</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <!-- Replace the action URL with your actual Formspree endpoint -->
+
+      <!-- You can edit or add your own questions here -->
+      <label for="username">Discord Username</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="why">Why do you want to be a moderator?</label>
+      <textarea id="why" name="why" rows="4" required></textarea>
+
+      <label for="experience">Do you have any previous experience?</label>
+      <textarea id="experience" name="experience" rows="4" required></textarea>
+
+      <input type="hidden" name="_replyto" value="monsterzain08@gmail.com" />
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+</body>
+</html>
+
